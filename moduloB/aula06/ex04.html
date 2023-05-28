@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatando string</title>
+</head>
+<body>
+
+    <script>
+        var texto = window.prompt('qual seu nome ')
+        document.write(`<h3>seu nome tem ${texto.length} letras</h3>`)
+        document.write(`<h3>seu nome  em maiusculo fica ${texto.toUpperCase()}</h3>`)
+        document.write(`<h3>seu nome em minusculas fica ${texto.toLocaleLowerCase()} </h3>`)
+        /*
+        var n1 =  window.prompt('qual numero ?')
+        document.write(n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'}))*/
+    </script>
+</body>
+</html>
