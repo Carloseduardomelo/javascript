@@ -1,0 +1,9 @@
+h1,p,div, script{
+    margin: 20px;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to left, rgb(167, 24, 131), rgb(223, 219, 31));
+    color:aliceblue;
+    font: normal 18pt arial; 
+}
