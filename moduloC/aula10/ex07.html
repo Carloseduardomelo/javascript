@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos dom</title>
+    <style>
+        *{
+            padding: opx;
+            margin: opx;
+        }
+        html,body{
+            background-image: linear-gradient(to left, #aece1f, #5716ee);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        form{
+            width: 300px;
+            height: 300px;
+            background-color: transparent;
+        }
+        .inp{
+            display: flex;
+            text-align: center;
+            justify-items: ;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <h1>somundo numeros</h1>
+    <form action="">
+        <input type="number" name="" id="tn1" class="inp">
+        <input type="number" name="" id="tn2" class="inp">
+        <input type="button" value="somar" id="soma1" class="inp"  onclick="soma()">
+    </form>
+    <div id="r"></div>
+
+    <script>
+        function soma(){
+        var tnr1 = document.querySelector('input#tn1')
+        var tnr2 = document.querySelector('input#tn2')
+        var res = document.querySelector('#r')
+        var n1 = Number(tnr1.value)
+        var n2 = Number(tnr2.value)
+        var s = n1 + n2
+        res.innerHTML = `A soma entre ${n1} e ${n2} e ${s}`
+        }
+
+    </script>
 </body>
 </html>
