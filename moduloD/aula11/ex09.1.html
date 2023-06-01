@@ -7,6 +7,19 @@
     <title>exe</title>
 </head>
 <body>
-    
+    <input type="text" name="nada" id="text1">
+    <input type="button" value="enviar" onclick="nat()">
+    <div id="res"></div>
+<script>
+    function nat(){
+        var textu = document.querySelector('#text1').value;// sempre utilizar o value
+        var resposta = document.querySelector('#res')
+        if (textu == "Brasil"){
+            resposta.innerHTML = 'Voce e brasileiro'
+        }else{
+            resposta.innerHTML = 'Voce e istrangeiro'
+        }
+    }
+    </script>
 </body>
 </html>
