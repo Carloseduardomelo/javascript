@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <form action="p">
-        
-    </form>
+    <h1>Sistema de multa </h1>
+        Sua velocidade <input type="number" name="nada" id="vel"> em KM/H
+        <input type="button" value="verificar" id="ir" onclick="manda()">
+    <div id="res"></div>
     <script>
+        function manda(){
+            var vell = document.querySelector('#vel')
+            var resul = document.querySelector('#res')
+            var velo = Number(vell.value)
+            if (velo > 60){
+                resul.innerHTML = `sua velocidade e de ${velo} KM/H E voce foi multado por anda em auta velosidade`
+            }else{
+                resul.innerHTML = `Sua velocidade e de ${velo} KM/H Boa sorde na viavem`
+            }
+        }
 
     </script>
 </body>
