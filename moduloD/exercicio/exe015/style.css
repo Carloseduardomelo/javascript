@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+input{
+    color: black;
+    margin: 10px;
+}
+.cont{
+    width: 500px;
+    height: 160px;
+    background-color: rgb(25, 53, 53);
+    color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+#nunb{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+}
+#bt{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+#resp{
+    font-size: 15pt;
+    margin-top: 20px;
+}
