@@ -15,7 +15,7 @@ function verificar(){
         img.setAttribute('id', 'foto')
 
         if (fsex[0].checked){
-            var genero = 'masculino'
+            var genero = 'menino'
             if (idade >= 0 && idade < 10){
                 //crianca
                 img.style.background = 'url("imagens/kindH.jpg") top center '
@@ -43,7 +43,7 @@ function verificar(){
             }
 
         }else{
-            var genero = 'feminino'
+            var genero = 'menina'
             if (idade >= 0 && idade < 10){
                 //crianca
                 img.style.background = 'url("imagens/kidM.jpg") top center '
