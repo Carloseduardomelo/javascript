@@ -11,6 +11,9 @@ function clicar(){
             var i = Number(ini.value)
             var f = Number(fim.value)
             var p = Number(paso.value)
+            if (p <= 0){
+                p = 1
+            }
             if ( i < f){
                 //contagen crecente
                 for(var c = i; c <= f; c += p){
@@ -25,45 +28,3 @@ function clicar(){
     }
     resp.innerHTML += `\u{1F3c1}`
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-var resp =  document.querySelector('#res').createElement('p')
-resp.setAttribute('class', 'res2')
-
-resp.innerHTML = 'carlos'
-*/
