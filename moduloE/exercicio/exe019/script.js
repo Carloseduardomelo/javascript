@@ -11,6 +11,7 @@ function clicar(){
             var item = document.createElement('option')
             item.text = `${nun} x ${c} = ${nun * c}`
             tab.appendChild(item)
+            item.value =`tab${c}`
             c++
         }
     }
