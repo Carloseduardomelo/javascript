@@ -1,4 +1,4 @@
-/*function par_ou_impar(n){
+function par_ou_impar(n){
     if (n % 2 == 0){
         return 'par'
     }else{
@@ -8,5 +8,3 @@
 
 let res = par_ou_impar(11)
 console.log(res)
-*/
-
