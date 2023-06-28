@@ -1,4 +1,4 @@
-// execicio de trocar valores de variaveis
+//! execicio de trocar valores de variaveis
 
 let a = 'vermelho'
 let b = 'azul'
@@ -21,4 +21,4 @@ e = f
 console.log(d)
 console.log(e)
 
-// execicio completo
+//! execicio completo
