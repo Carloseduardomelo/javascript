@@ -17,4 +17,4 @@ velomax(70)
 
 
 
-//! execicio
+//! execicio MEDIDOR DE VELOCIDADE

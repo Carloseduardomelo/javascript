@@ -12,3 +12,5 @@ function fizzbuzz(entrada){
 
 let res = fizzbuzz(15)
 console.log(res)
+
+//! execicio FIZZBUZZ

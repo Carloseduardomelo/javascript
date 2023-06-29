@@ -15,4 +15,4 @@ par_impar(10)
 
 
 
-//!execio
+//!execio PAR OU INPA
