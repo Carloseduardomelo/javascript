@@ -7,7 +7,7 @@ var h1 = document.querySelector('#h')
 var pe = document.querySelector('#foot')
 
 //pegando hora atual
-var hora = 19
+var hora = 15
 //var hor = new Date()
 //var hora = hor.getHours()
 
