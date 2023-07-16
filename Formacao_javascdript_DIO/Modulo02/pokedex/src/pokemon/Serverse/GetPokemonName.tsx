@@ -3,9 +3,9 @@ import { Welcome } from '../interfaces/pokemonInterface';
 
 export  async function getPokemonName (name:string): Promise<Welcome> {
 
-    const API = process.env.REACT_APP_POKEAPI
 
-    const endponit = `${API}${name}`
+
+    const endponit = `${process.env.REACT_APP_POKEAPI}${name}`
 
     const response = await axios.get<Welcome>(endponit)
     

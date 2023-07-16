@@ -1,4 +1,3 @@
-
 export interface Welcome {
     abilities:                Ability[];
     base_experience:          number;
