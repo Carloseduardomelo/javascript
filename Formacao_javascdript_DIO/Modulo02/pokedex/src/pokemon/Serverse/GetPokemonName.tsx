@@ -1,3 +1,6 @@
+//! arqquivo que pega as informações dos pokemon todas as informações.
+
+
 import axios from 'axios';
 import { Welcome } from '../interfaces/pokemonInterface';
 

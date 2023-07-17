@@ -1,3 +1,5 @@
+//! arquivo de izibeção os pokemon.
+
 import React, { useEffect, useState } from 'react'
 import { Listpokemon, PokemonListeInterfeice } from '../pokemon/Serverse/Listpokemon';
 import { getPokemonName } from '../pokemon/Serverse/GetPokemonName';
@@ -58,15 +60,15 @@ export const Pokedex: React.FC<PokedexProps> = () => {
                     <Grid container spacing={2}>
                         {pokemons.map((pokemon) => (
                             <>
-                                <Grid item xs={6} lg={3}>
-                                    <Card sx={{ minWidth: 140 }}>
+                                <Grid item xs={6} lg={3} spacing={10}>
+                                    <Card sx={{ minWidth: 130}}>
                                         <CardContent>
-                                            <Typography variant="h5" component="div">
-                                                {pokemon.name}
+                                            <Typography variant="h5" component="div" fontSize={20}>
+                                                {pokemon.name} 
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
-                                            <Button size="small">Learn More</Button>
+                                            <Button onClick={() => setSelectedPokemon(pokemon)}>Abrir</Button>
                                         </CardActions>
                                     </Card>
                                 </Grid>

@@ -1,3 +1,5 @@
+//! mapealemto das informacion dos pokemon que pegamos no arquivo getPokemonName
+
 export interface Welcome {
     abilities:                Ability[];
     base_experience:          number;
