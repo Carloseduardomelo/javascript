@@ -75,13 +75,6 @@ export const Pokedex: React.FC<PokedexProps> = () => {
                             </>
                         ))}
                     </Grid >
-                    <p>
-                        Informações dos pokemones <br />
-                        <br />
-                        {JSON.stringify(selectedPokemonDetail, undefined, 2)}
-
-                    </p>
-                    {/* Display the details of the selected pokemon */}
                 </Box>
             </Container>
         </div >
