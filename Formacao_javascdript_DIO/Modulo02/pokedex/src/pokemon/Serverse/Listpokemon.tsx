@@ -15,9 +15,9 @@ interface ListPokemonInterFcae{
     results:PokemonListeInterfeice[]
 }
 
-export  async function Listpokemon (): Promise<ListPokemonInterFcae> {
+export  async function Listpokemon (cont:Number): Promise<ListPokemonInterFcae> {
 
-    const endponit = `${process.env.REACT_APP_POKEAPI}` 
+    const endponit = `${process.env.REACT_APP_POKEAPI}?offset=20&limit=${cont}` 
 
     const response = await axios.get<ListPokemonInterFcae>(endponit)
     

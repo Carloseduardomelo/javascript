@@ -9,7 +9,7 @@ import Routas from './Routes';
 const App: React.FC = () => {
   return (
       <BrowserRouter>
-          <Routas/>z
+          <Routas/>
       </BrowserRouter>
   )
 }

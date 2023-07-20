@@ -20,20 +20,29 @@ interface PokedexProps {
 }
 
 
+
 export const Pokedex: React.FC<PokedexProps> = () => {
     const [pokemons, setpokemon] = useState<PokemonListeInterfeice[]>([]);
     const [selectpokemon, setSelectedPokemon] = useState<PokemonListeInterfeice | undefined>(undefined);
     const [selectedPokemonDetail, setSelectePokemonDetal] = useState<Welcome | undefined>(undefined);
+    const [contPokemon, setContPokemon] = useState(12)
+
+
+    function cont(contPokemon: any) {
+        setContPokemon(contPokemon += 12)
+    }
+
 
     useEffect(() => {
-        Listpokemon().then((response) => setpokemon(response.results))
-    }, []);
+        Listpokemon(contPokemon).then((response) => setpokemon(response.results))
+    }, [contPokemon]);
 
     useEffect(() => {
         if (!selectpokemon) return;
 
         getPokemonName(selectpokemon.name).then((response) => setSelectePokemonDetal(response))
     }, [selectpokemon])
+
 
 
     return (
@@ -61,10 +70,10 @@ export const Pokedex: React.FC<PokedexProps> = () => {
                         {pokemons.map((pokemon) => (
                             <>
                                 <Grid item xs={6} lg={3} spacing={10}>
-                                    <Card sx={{ minWidth: 130}}>
+                                    <Card sx={{ minWidth: 130 }}>
                                         <CardContent>
                                             <Typography variant="h5" component="div" fontSize={20}>
-                                                {pokemon.name} 
+                                                {pokemon.name}
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
@@ -75,6 +84,13 @@ export const Pokedex: React.FC<PokedexProps> = () => {
                             </>
                         ))}
                     </Grid >
+
+                    <Button variant="contained" color="success" onClick={() => {
+                        cont(contPokemon)
+                    }}>
+                        Success
+                    </Button>
+
                 </Box>
             </Container>
         </div >
