@@ -5,7 +5,7 @@ var pessoa = function(nome, idade , cit){
 }
 
 var carlos ={
-    cpf: 'carlos'
+    cpf: 175349825
 }
 
 pessoa.call(carlos , 'carlos', 19, 'sp') //! vai add todos os atributos para carlos.

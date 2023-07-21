@@ -1,5 +1,5 @@
 //! finction comstrutora.
-
+console.log('-----------------------CARLOS-----------------------------------')
 var dados = { //! objeto que vai ser passado na function comstrutora.
     cit: 'rio',
     funt: function () {
@@ -30,7 +30,7 @@ carlos.number = 10 //!add o atributo de number para carlos so para ele si eu qui
 console.log(carlos)
 
 
-console.log('-----------------------------------------------------------')
+console.log('-------------------------NADA----------------------------------')
 
 
 var nada = new Pessoa('carlos', 10, 4623568, dados, arrays)
@@ -38,7 +38,7 @@ var nada = new Pessoa('carlos', 10, 4623568, dados, arrays)
 console.log(nada)
 
 
-
+console.log('-------------------------REI----------------------------------')
 
 //! outro jeito de fazer function comstrutora.
 
@@ -56,6 +56,6 @@ class pessoas {
 
 var rei = new pessoas('carlos', 10)
 
-console.log(rei.falar2())
+console.log(rei)
 
 //! Esses foram ulgums exemplos de function comstrutoras.
