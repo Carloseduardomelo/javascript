@@ -1,7 +1,12 @@
+var pokemonOl = window.document.querySelector("#pokemons")
+const buton = document.querySelector(".butao")
+
+let cont = 10
+let offset = 0
+let limite = 90
 
 
-
-function ulpokemons(pokemon) {
+function ulpokemons(pokemon ) {
     const text = String(`
     <li class="pokemon" id=${String(JSON.stringify(pokemon.type))}}">
         <span class="number">#00${pokemon.number}</span>
@@ -15,15 +20,26 @@ function ulpokemons(pokemon) {
     </li>`)
     return text
 }
+function loadPoke(offset,cont,cont2) {
+    pokeApi.getpokemons(offset,cont).then((listPokemon = []) => {
+        const newList = listPokemon.map((pokemon) => { return ulpokemons(pokemon) })
+        //! responsavio para adicionar os items no html
+        pokemonOl.innerHTML += newList.join('')
+    })
+}
 
+loadPoke(offset, cont)
 
-var pokemonOl = window.document.querySelector("#pokemons")
-pokeApi.getpokemons().then((listPokemon = []) => {
-    const newList = listPokemon.map((pokemon) => {return ulpokemons(pokemon)})
-    //! responsavio para adicionar os items no html
-    pokemonOl.innerHTML = newList.join('')
+buton.addEventListener('click', () =>{
+    offset += cont 
+    loadPoke(offset , cont)
+
+    if (offset >= limite){
+        buton.style.display = 'none'
+    }else{
+        console.log('ok')
+    }
 })
-
 
 
 

@@ -8,7 +8,7 @@ pokeApi.getdetaisPokemon = (pokemon) =>{
 
 function convertPokeApiDetailToPokemon(detaisPokemon) {
     const pokemon = new Pokemon()
-    pokemon.number = detaisPokemon.order
+    pokemon.number = detaisPokemon.id
     pokemon.name = detaisPokemon.name
 
     const types = detaisPokemon.types.map((typeSlot) => typeSlot.type.name)
@@ -23,7 +23,7 @@ function convertPokeApiDetailToPokemon(detaisPokemon) {
 }
 
 
-pokeApi.getpokemons = (offset=0,cont=10) => {
+pokeApi.getpokemons = (offset,cont) => {
     //? sempre return para n da erro.c
     
     let url =`https://pokeapi.co/api/v2/pokemon?offset=${offset}&&limit=${cont}`
