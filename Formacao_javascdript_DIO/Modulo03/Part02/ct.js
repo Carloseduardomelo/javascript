@@ -9,12 +9,15 @@ var dados = { //! objeto que vai ser passado na function comstrutora.
 var arrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-function Pessoa(nome, idade, cpf, dados, arrays) { //? function comstrutora, ela serve para construir alguma coisa hahahahahha.
+function Pessoa(nome, idade, cpf, dados, arrays, funts) { //? function comstrutora, ela serve para construir alguma coisa hahahahahha.
     this.nome = nome
     this.idade = idade
     this.cpf = cpf
     this.dados = dados
     this.arrays = arrays
+    this.funts = function(){ //!" tbm podemos fazer function dentro de function comstrutoras"
+        return 'ola jgnsuign'
+    }
 }
 
 
