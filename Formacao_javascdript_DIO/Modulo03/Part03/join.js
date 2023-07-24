@@ -15,3 +15,8 @@ console.log(final2)
 //! muito bom o join
 
 //todo; obs: estudar mais sobre isso.
+
+
+// let nada = ['carlos' , 'nada']
+// let f = nada.filter((nada) => nada.startsWith('c'))
+// console.log(f)

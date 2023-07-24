@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 0 0 0;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top left, #26547C , #EF476F , #FFD166 , #06D6A0);
+
+    /* background: url('../imagens/6189902_3185113.jpg');
+    background-position: center center;
+    background-size: cover; */
+
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+body {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    backdrop-filter: blur(1px);
+
+    border: 2px solid white;
+    border-radius: 15px;
+
+    margin: 10px 0px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 5px;
+    margin-top: 10px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header img {
+    width: 35vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+header p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+.inf{
+    width: 95%;
+}
+
+.inf p{
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inf p::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url('../icons/user-solid\ \(2\).svg' )no-repeat center center;
+    margin-right: 10px;
+    color: white;
+}
+
+main {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main section {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+    margin: 8px 0px 0px 0px;
+    padding: 0 10px;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section p {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.1rem;
+
+    padding: 5px;
+}
