@@ -9,7 +9,7 @@ var dados = { //! objeto que vai ser passado na function comstrutora.
 var arrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-function Pessoa(nome, idade, cpf, dados, arrays, funts) { //? function comstrutora, ela serve para construir alguma coisa hahahahahha.
+function Pessoa(nome, idade, cpf, dados, arrays) { //? function comstrutora, ela serve para construir alguma coisa hahahahahha.
     this.nome = nome
     this.idade = idade
     this.cpf = cpf
@@ -27,7 +27,7 @@ var carlos = new Pessoa('carlos', 10, 394144, dados, arrays) //! nos estamos lit
 
 carlos.number = 10 //!add o atributo de number para carlos so para ele si eu quiser add em outro vuo ter fazer com todos eles
 
-console.log(carlos)
+console.log(carlos.funts())
 
 
 console.log('-------------------------NADA----------------------------------')
@@ -35,7 +35,7 @@ console.log('-------------------------NADA----------------------------------')
 
 var nada = new Pessoa('carlos', 10, 4623568, dados, arrays)
 
-console.log(nada)
+console.log(nada.arrays)
 
 
 console.log('-------------------------REI----------------------------------')
@@ -56,6 +56,6 @@ class pessoas {
 
 var rei = new pessoas('carlos', 10)
 
-console.log(rei)
+console.log(rei.falar2())
 
 //! Esses foram ulgums exemplos de function comstrutoras.
