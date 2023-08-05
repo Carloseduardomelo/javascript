@@ -1,0 +1,54 @@
+<!--! exemplo de flex direction -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .cont {
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /*flex-direction: column-reverse;
+            flex-direction: row;
+            flex-direction: row-reverse;*/
+
+            gap: 30px;
+
+
+            background-color: black;
+        }
+
+        .items {
+            width: 20%;
+            height: 10%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: blueviolet;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="items"> car</div>
+        <div class="items">kasdhgk</div>
+        <div class="items">sadbasd</div>
+    </div>
+</body>
+</html>

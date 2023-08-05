@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .cont{
+            width: 50%;
+            height: auto;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .items{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .star{
+            justify-content: start;
+        }
+        .end{
+            justify-content: end;
+        }
+        .cent{
+            justify-content: center;
+        }
+        .sp-be{
+            justify-content: space-between;
+        }
+        .sp-ar{
+            justify-content: space-around;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>start</h1>
+    <div class="cont star">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
+    <h1>end</h1>
+    <div class="cont end">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
+    <h1>center</h1>
+    <div class="cont cent">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
+    <h1>space-between</h1>
+    <div class="cont sp-be">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
+    <h1>space-around</h1>
+    <div class="cont sp-ar">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+    </div>
+</body>
+</html>

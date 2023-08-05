@@ -1,0 +1,47 @@
+<!--! exemplo de display flex -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        html{
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .cont{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            gap: 30px;
+        }
+        
+        .nada{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 20%;
+            background-color: blueviolet;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont">
+        <p class="nada">car</p>
+        <p class="nada">hag</p>
+        <p class="nada">kjh</p>
+    </div>
+</body>
+</html>
