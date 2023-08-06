@@ -1,0 +1,248 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 112);
+}
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: rgb(20, 20, 112);
+}
+button{
+    border: none;
+}
+.menu {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: antiquewhite;
+}
+.menu>li {
+    margin-left: 40px;
+}
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 30px;
+}
+.cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0px 20px;
+
+}
+.cont-dentro {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.pri1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 20px;
+}
+.pri1 h2 {
+    font-size: 38pt;
+    color: rgb(20, 20, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#melhor {
+    font-size: 14pt;
+    color: rgb(20, 20, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 112);
+    color: antiquewhite;
+    text-align: center;
+}
+#button:hover{
+    background-color: antiquewhite;
+    color: rgb(20, 20, 112);
+}
+#img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+#img1 img{
+    width: 650px;
+}
+#img2 img{
+    width: 650px;
+}
+#quem{
+    width: 100%;
+    border-left: 5px solid rgb(20, 20, 112);
+}
+.pri2{
+    width: 48%;
+    padding-left: 20px;
+    text-align: start;
+    flex-direction: column;
+    gap: 25px;
+}
+.pri2 h2{
+    font-size: 26pt;
+    color: rgb(20, 20, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.servi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.serv{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#serve-h2{
+    width: 21%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    font-size: 30pt;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.serv img{
+    width: 210px;
+}
+.serv p{
+    color: white;
+}
+.servi-but{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+}
+
+.cont-pla{
+    width: 100%;
+    height: auto;
+}
+
+.plano{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.planos h2{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid rgb(20, 20, 112) ;
+}
+
+.planos{
+    width: 20%;
+    border: 5px solid rgb(20, 20, 112);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 40px;
+}
+
+#planoh2{
+    width: 31.5%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30pt;
+}
+
+.planos ul{
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.planos button{
+    width: 80%;
+    height: 50px;
+
+    background-color: rgb(20, 20, 112);
+    color: antiquewhite;
+
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.planos a{
+    color: antiquewhite;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+
+    margin-top: 40px;
+
+    background-color: rgb(20, 20, 112);
+    color: antiquewhite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

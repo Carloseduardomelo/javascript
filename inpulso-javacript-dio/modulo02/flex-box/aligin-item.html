@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body{
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .cont{
+            width: 30%;
+            height: 300px;
+            display: flex;
+            gap: 10px 0px;
+            border: 1px solid red;
+        }
+
+        .items{
+            width: 50%;
+            height: 50px;
+            margin: 10px;
+            background-color: blue;
+        }
+        .cent{
+            align-items: center;
+            background-color: brown;
+        }
+        .str{
+            align-items: stretch;
+            background-color: blueviolet;
+        }
+        .star{
+            align-items: start;
+            background-color: darkgoldenrod;
+        }
+        .end{
+            align-items: end;
+            background-color: darkgreen;
+        }
+        .base{
+            align-items: baseline;
+            background-color: lightcoral;
+        }
+
+        .colunos{
+            flex-direction: column;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>center</p>
+    <div class="cont cent">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>stretch</p>
+    <div class="cont str">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>start</p>
+    <div class="cont star">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>end</p>
+    <div class="cont end">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>baseline</p>
+    <div class="cont base">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+
+    <h1>colunos</h1>
+    <p>center</p>
+    <div class="cont cent colunos">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>stretch</p>
+    <div class="cont str colunos">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>start</p>
+    <div class="cont star colunos">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>end</p>
+    <div class="cont end colunos">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+    <p>baseline</p>
+    <div class="cont base colunos">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+</body>
+</html>

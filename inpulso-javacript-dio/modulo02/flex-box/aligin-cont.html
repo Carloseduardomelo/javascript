@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .cont{
+            width: 50%;
+            height: 500px;
+
+            border: 1px solid red;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .items{
+            width: 30%;
+            height: 50px;
+
+            background-color: brown;
+        }
+
+        .cent{
+            align-content: center;
+        }
+        .str{
+            align-content: stretch;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .end{
+            align-content: end;
+        }
+        .bet{
+            align-content: space-between;
+        }
+        .ar{
+            align-content: space-around;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont cent">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <div class="cont str">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <div class="cont start">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <div class="cont end">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <div class="cont bet">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <div class="cont ar">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+</body>
+</html>
