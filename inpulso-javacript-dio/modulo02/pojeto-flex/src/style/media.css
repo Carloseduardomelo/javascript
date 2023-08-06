@@ -15,13 +15,13 @@
     }
 
     .planos{
-        width: 30%;
+        width: 30.6%;
     }
 }
 @media (min-width:435px) and (max-width:600px){
 
 }
-@media (min-width: 400px) and (max-width:600px){
+@media (min-width: 400px) and (max-width:630px){
 
     header{
         width: 100%;
@@ -73,7 +73,6 @@
     #serve-h2{
         justify-content: center;
         width: 100%;
-        border: 1px solid red;
     }
 
     #planoh2{
