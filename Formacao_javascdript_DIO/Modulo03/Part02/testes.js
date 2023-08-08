@@ -5,6 +5,7 @@ var pessoa = function(nome, idade , cit){
 }
 
 var carlos ={
+    rio: 'sirigi',
     cpf: 175349825
 }
 

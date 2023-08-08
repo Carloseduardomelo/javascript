@@ -27,7 +27,7 @@ var carlos = new Pessoa('carlos', 10, 394144, dados, arrays) //! nos estamos lit
 
 carlos.number = 10 //!add o atributo de number para carlos so para ele si eu quiser add em outro vuo ter fazer com todos eles
 
-console.log(carlos.funts())
+console.log(carlos.dados.funt())
 
 
 console.log('-------------------------NADA----------------------------------')
