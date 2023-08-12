@@ -1,15 +1,16 @@
-let text = 'ama'
+// let text = 'ama'
 
-function revet(text){
-    if(!text) return
-    if(text.split('').reverse().join('') === text){
-        console.log('a palavra de tras para fermte e a mesma coisa')
-    }else{
-        console.log('as palavras não são enguais de  tras para frem')
-    }
-}
+// function revet(text){
+//     if(!text) throw "erro no text";
 
-revet('a!ma')
+//     if(text.split('').reverse().join('') === text){
+//         console.log('a palavra de tras para fermte e a mesma coisa')
+//     }else{
+//         console.log('as palavras não são enguais de  tras para frem')
+//     }
+// }
+
+// revet("")
 
 // // console.log(text.split('').reverse('').join(''))
 
@@ -27,3 +28,14 @@ revet('a!ma')
 
 // let nada1 = [ 1,2,3,4,5,6,7,8,9,10]
 // nada(nada1)
+
+
+
+
+let i = 2
+
+if(i === 1){
+    throw "eroo dno airqerjgubnueqigbnheiuqrgnioetqerngquirebnuibnqeriuhgbneqrohgnequrnbghuebnhgfni"
+}else{
+    console.log(i)
+}
