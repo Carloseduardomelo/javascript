@@ -1,4 +1,4 @@
-Programação JavaScript
+## Programação JavaScript
 
 Bem-vindo ao meu repositório de estudos de programação em JavaScript! Aqui você encontrará uma coleção de  exercícios e anotações relacionadas ao meu percurso de aprendizado nessa linguagem de programação versátil e amplamente usada.
 
