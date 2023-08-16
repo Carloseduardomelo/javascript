@@ -1,10 +1,10 @@
-# README - Estudante de Programação JavaScript
+Programação JavaScript
 
-Bem-vindo ao meu repositório de estudos de programação em JavaScript! Aqui você encontrará uma coleção de projetos, exercícios e anotações relacionadas ao meu percurso de aprendizado nessa linguagem de programação versátil e amplamente usada.
+Bem-vindo ao meu repositório de estudos de programação em JavaScript! Aqui você encontrará uma coleção de  exercícios e anotações relacionadas ao meu percurso de aprendizado nessa linguagem de programação versátil e amplamente usada.
 
 ## Sobre Mim
 
-- **Nome:** Seu Nome
+- **Nome:** Carlos eduardo
 - **E-mail:** python0000003@gmail.com
 - **LinkedIn:** [Carlos Eduardo](https://www.linkedin.com/in/carlos-eduardo02/)
 - **GitHub:** https://github.com/Carloseduardomelo
@@ -19,8 +19,7 @@ Meu objetivo como estudante de programação JavaScript é desenvolver habilidad
 Durante meu estudo de programação JavaScript, eu estou me baseando em diversos recursos de aprendizado:
 
 - **Cursos Online:**
-  - [Curso de JavaScript Moderno - Udemy](https://www.udemy.com/curso-de-javascript-moderno/)
-  - [JavaScript: The Definitive Guide - O'Reilly](https://www.oreilly.com/library/view/javascript-the-definitive/9780596805531/)
+  - [Curso de javaScript - curso em video - ](https://youtu.be/1-w1RfGIov4)
 
 - **Documentação Oficial:**
   - [JavaScript MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -41,8 +40,8 @@ Meus planos futuros incluem:
 
 Fique à vontade para entrar em contato comigo por e-mail ou LinkedIn. Estou sempre aberto a conversas, colaborações e novas oportunidades de aprendizado e desenvolvimento!
 
-**E-mail:** seu.email@example.com
-**LinkedIn:** [Seu Perfil no LinkedIn](https://www.linkedin.com/in/seuperfil/)
+**E-mail:** python0000003@gmail.com
+**LinkedIn:** https://www.linkedin.com/in/carlos-eduardo02/
 
 ---
 
