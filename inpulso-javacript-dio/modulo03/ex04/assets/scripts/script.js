@@ -17,5 +17,7 @@ button.addEventListener('click' , () => {
         footer.classList.remove('darkf')
         h1.innerHTML = 'light mode on'
         offOn = true
+
+        main.sty
     }
 })

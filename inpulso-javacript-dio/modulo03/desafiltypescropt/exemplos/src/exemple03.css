@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#input01{
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+#input01 input{
+    width: 40%;
+    height: 40px;
+
+    border-radius: 20px;
+    border: 1px solid darkgray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+#input01 button{
+    width: 40%;
+    height: 40px;
+
+    border-radius: 20px;
+    border: 1px solid darkgreen;
+}
+
+#tela{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 20px;
+
+    border-radius: 20px;
+
+    padding: 30PX;
+}
+
+#tela p{
+    width: 80%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aqua;
+    color: black;
+
+    border-radius: 20px;
+}
