@@ -9,6 +9,8 @@ console.log('')
 console.log('numeros impar')
 console.log('')
 
+jopjíop
+
 let imp = 1
 while(imp <= 10){
     if(imp % 2 != 0){
