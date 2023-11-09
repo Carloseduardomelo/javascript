@@ -34,6 +34,6 @@ pokeApi.getpokemons = (offset,cont) => {
     .then((pokemonDEtais) => Promise.all(pokemonDEtais))
     .then((detaisPokemon) => detaisPokemon)
 
-    console.log(pokemon.types)
+    console.log(pokemon)
     
 }
