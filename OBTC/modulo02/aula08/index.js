@@ -11,7 +11,6 @@ let dados ={
     9:{ name: "Beatriz", id: 9 }
 }
 
-
 const keys = Object.keys(dados)
 const arrys = []
 
