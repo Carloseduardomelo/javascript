@@ -11,11 +11,6 @@ const radios03 = document.getElementById('radios03')
 const dados = []
 
 const verificar = () => {
-    if (tecnolodias.style.display == 'none') {
-        tecnolodias.style.display = 'block'
-    } else {
-        tecnolodias.style.display = 'none'
-    }
 }
 
 const apagar = () => {
@@ -46,7 +41,28 @@ const cadastroDEV = () => {
     ]) : console.log('')
 }
 
-Adicionar.addEventListener('click', verificar)
+Adicionar.addEventListener('click', () => {
+    const section = document.createElement('section')
+    const inputText = document.createElement('input')
+    const inputRadio01 = document.createElement('input')
+    const inputRadio02 = document.createElement('input')
+    const inputRadio03 = document.createElement('input')
+    const button = document.createElement('button')
+
+    inputRadio01.type = 'radio'
+    inputRadio02.type = 'radio'
+    inputRadio03.type = 'radio'
+    inputText.type = 'text'
+    button.className = 'buttonRemover'
+
+    tecnolodias.appendChild(section)
+    section.appendChild(inputText)
+    section.appendChild(inputRadio01)
+    section.appendChild(inputRadio02)
+    section.appendChild(inputRadio03)
+    section.appendChild(button)
+})
+
 
 
 remover.addEventListener('click', apagar)
