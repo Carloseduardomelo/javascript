@@ -1,11 +1,17 @@
 function VerificarDano(namePrese01 , poderPerse01 , namePrese02 ,pontosDeVidaperson02, pontosDeDefesaperson02 , escudo ) {
 
     let dadoCausado = 0
-    if(poderPerse01 > pontosDeVidaperson02 || escudo) dadoCausado = poderPerse01 - pontosDeDefesaperson02
-    if(poderPerse01 > pontosDeVidaperson02 && escudo) dadoCausado = ( poderPerse01 - pontosDeDefesaperson02 ) / 2
-    if(poderPerse01 <= pontosDeVidaperson02) dadoCausado = 0
 
-    pontosDeVidaperson02 = dadoCausado
+    if(poderPerse01 > pontosDeVidaperson02 || escudo){
+        dadoCausado = poderPerse01 - pontosDeDefesaperson02
+    }else if(poderPerse01 > pontosDeVidaperson02 && escudo){
+        dadoCausado = ( poderPerse01 - pontosDeDefesaperson02 ) / 2
+    }else if(poderPerse01 <= pontosDeVidaperson02) {
+        dadoCausado = 0
+    }
+    
+
+    pontosDeVidaperson02 -= dadoCausado
 
     let dados = {
         namePrese01 : namePrese01,
@@ -19,4 +25,4 @@ function VerificarDano(namePrese01 , poderPerse01 , namePrese02 ,pontosDeVidaper
     return dados
 }
 
-console.log(VerificarDano('carlos' , 1000, 'saitama', 500, 500,true))
+console.log(VerificarDano('carlos' , 1000, 'saitama', 1000, 500,true))
